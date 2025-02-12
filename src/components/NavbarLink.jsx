@@ -12,11 +12,24 @@ const NavbarLink = () => {
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <Link class="nav-link" to="home">Home <span class="sr-only">(current)</span></Link>
+        <Link class="nav-link" to="/home">Home <span class="sr-only">(current)</span></Link>
         </li>
       
       <li class="nav-item">
-        <Link class="nav-link" to="movie">MOVIE</Link>
+        <Link class="nav-link" to="/movie">MOVIE</Link>
+      </li>
+      
+      <li class="nav-item">
+        <Link class="nav-link" to="/formdemo1">FORMDEMO1</Link>
+      </li>
+      <li class="nav-item">
+        <Link class="nav-link" to="/formdemo2">FORMDEMO2</Link>
+      </li>
+      <li class="nav-item">
+        <Link class="nav-link" to="/formdemo3">FORMDEMO3</Link>
+      </li>
+      <li class="nav-item">
+        <Link class="nav-link" to="/formdemo4">FORMDEMO4</Link>
       </li>
       </ul>    
   </div>

@@ -23,6 +23,11 @@ import HotstarHome from './components/hotstar/HotstarHome.jsx'
 import HotstarMovies from './components/hotstar/HotstarMovies.jsx'
 import HotstarWelcome from './components/hotstar/HotstarWelcome.jsx'
 import Error404 from './components/hotstar/Error404.jsx'
+import Play from './components/hotstar/Play.jsx'
+import FormDemo1 from './components/form/FormDemo1.jsx'
+import FormDemo2 from './components/form/FormDemo2.jsx'
+import FormDemo3 from './components/form/FormDemo3.jsx'
+import FormDemo4 from './components/form/FormDemo4.jsx'
 
 
 
@@ -42,6 +47,11 @@ function App() {
             <Route path='/' element={<HotstarWelcome></HotstarWelcome>}></Route>
             {/* <Route path='/error' element={<Error404></Error404>}></Route> */}
             <Route path='/*' element={<Error404></Error404>}></Route>
+            <Route path='/play/:id' element={<Play></Play>}></Route>
+            <Route path='/formdemo1' element={<FormDemo1></FormDemo1>}></Route>
+            <Route path='/formdemo2' element={<FormDemo2></FormDemo2>}></Route>
+            <Route path='/formdemo3' element={<FormDemo3></FormDemo3>}></Route>
+            <Route path='/formdemo4' element={<FormDemo4></FormDemo4>}></Route>
           </Routes>
         
          {/* <InputDemo3></InputDemo3>
