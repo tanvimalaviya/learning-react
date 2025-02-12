@@ -43,3 +43,4 @@ export const FormDemo3 = () => {
     </div>
   );
 };
+export default FormDemo3
