@@ -31,6 +31,18 @@ const NavbarLink = () => {
       <li class="nav-item">
         <Link class="nav-link" to="/formdemo4">FORMDEMO4</Link>
       </li>
+      <li class="nav-item">
+        <Link class="nav-link" to="/formdemo5">FORMDEMO5</Link>
+      </li>
+      <li class="nav-item">
+        <Link class="nav-link" to="/formdemo6">FORMDEMO6</Link>
+      </li>
+      <li class="nav-item">
+        <Link class="nav-link" to="/formdemo7">FORMDEMO7</Link>
+      </li>
+      <li class="nav-item">
+        <Link class="nav-link" to="/formdemo8">FORMDEMO8</Link>
+      </li>
       </ul>    
   </div>
 </nav>
