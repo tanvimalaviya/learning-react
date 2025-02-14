@@ -28,6 +28,12 @@ import FormDemo1 from './components/form/FormDemo1.jsx'
 import FormDemo2 from './components/form/FormDemo2.jsx'
 import FormDemo3 from './components/form/FormDemo3.jsx'
 import FormDemo4 from './components/form/FormDemo4.jsx'
+import FormDemo5 from './components/form/FormDemo5.jsx'
+import FormDemo6 from './components/form/FormDemo6.jsx'
+import FormDemo7 from './components/form/FormDemo7.jsx'
+import FormDemo8 from './components/form/FormDemo8.jsx'
+
+
 
 
 
@@ -52,7 +58,11 @@ function App() {
             <Route path='/formdemo2' element={<FormDemo2></FormDemo2>}></Route>
             <Route path='/formdemo3' element={<FormDemo3></FormDemo3>}></Route>
             <Route path='/formdemo4' element={<FormDemo4></FormDemo4>}></Route>
-          </Routes>
+            <Route path='/formdemo5' element={<FormDemo5></FormDemo5>}></Route>
+            <Route path='/formdemo6' element={<FormDemo6></FormDemo6>}></Route>
+            <Route path='/formdemo7' element={<FormDemo7></FormDemo7>}></Route>
+            <Route path='/formdemo8' element={<FormDemo8></FormDemo8>}></Route>
+            </Routes>
         
          {/* <InputDemo3></InputDemo3>
          <InputDemo2></InputDemo2> */}
@@ -74,4 +84,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
